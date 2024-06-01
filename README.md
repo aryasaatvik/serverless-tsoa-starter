@@ -6,7 +6,7 @@ A template for building and deploying a serverless API
 
 [koa]: node.js web framework for building APIs
 
-[clerk]: managed authentication and user management service
+[workos]: managed authentication and user management service
 
 [esbuild]: JavaScript bundler and minifier
 
@@ -18,6 +18,6 @@ A template for building and deploying a serverless API
 [tsoa]: https://github.com/lukeautry/tsoa
 [koa]: https://koajs.com/
 [cdk]: https://aws.amazon.com/cdk/
-[clerk]: https://clerk.dev/
+[workos]: https://workos.com/user-management
 [serverless-http]: https://github.com/dougmoscrop/serverless-http/tree/master
 [esbuild]: https://esbuild.github.io/
