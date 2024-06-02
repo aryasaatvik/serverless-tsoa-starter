@@ -1,0 +1,21 @@
+{
+  "entryFile": "src/app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/routes/**/*.ts"],
+  "spec": {
+    "outputDirectory": "./",
+    "specVersion": 3,
+    "securityDefinitions": {
+      "jwt": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "routes": {
+    "routesDir": "src/routes",
+    "middleware": "koa",
+    "authenticationModule": "src/middleware/authentication.ts"
+  }
+}

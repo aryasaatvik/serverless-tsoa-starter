@@ -1,0 +1,11 @@
+build
+node_modules
+
+swagger.json
+
+src/routes/routes.ts
+
+dist
+
+.env*
+!.env.local.example
